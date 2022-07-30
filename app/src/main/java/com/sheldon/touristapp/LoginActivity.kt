@@ -1,5 +1,6 @@
 package com.sheldon.touristapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -36,19 +37,22 @@ class LoginActivity : AppCompatActivity() {
             val client = AsyncHttpClient(true,80,443)
             val json = JSONObject() // used to convert string to json (format of data on internet)
 
-            json.put("user", user.text.toString())
-            json.put("email", email.text.toString())
+            json.put("email", user.text.toString())
+            json.put("password", email.text.toString())
 
             val con_body  = StringEntity(json.toString())
 
-            client.post(this,"https://Denzil.pythonanywhere.com/mpesa",con_body,"application/json",
+            client.post(this,"https://Denzil1.pythonanywhere.com/login",con_body,"application/json",
                 object : JsonHttpResponseHandler(){
                     override fun onSuccess(
                         statusCode: Int,
                         headers: Array<out Header>?,
                         response: JSONObject?
                     ) {
-                        Toast.makeText(applicationContext,"Paid Successfuly"+ statusCode, Toast.LENGTH_LONG).show()
+                        Toast.makeText(applicationContext,"Login Successfuly"+ statusCode, Toast.LENGTH_LONG).show()
+                        val intent = Intent(applicationContext,BookActivity::class.java)
+                        startActivity(intent)
+
                         progressbar.visibility = View.GONE
 
                     }

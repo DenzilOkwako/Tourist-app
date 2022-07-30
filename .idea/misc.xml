@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/input_bg.xml" value="0.12" />
+        <entry key="app/src/main/res/layout/activity_book.xml" value="0.3296875" />
         <entry key="app/src/main/res/layout/activity_diani.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_lamu.xml" value="0.3296875" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />

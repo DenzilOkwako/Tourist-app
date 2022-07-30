@@ -42,25 +42,30 @@
         android:layout_margin="10dp"
         android:drawableLeft="@drawable/ic_email"
         android:background="@drawable/input_bg"
-        android:hint="Email"
+        android:hint="Password"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:padding="5dp"
         android:drawablePadding="15dp"
         android:textColorHint="@color/white" />
-    <EditText
-        android:id="@+id/phone"
-        android:layout_width="match_parent"
-        android:layout_height="52dp"
-        android:layout_margin="10dp"
-        android:textAlignment="center"
-        android:background="@drawable/input_bg"
-        android:hint="Phone number 2547"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:padding="5dp"
-        android:drawablePadding="15dp"
-        android:textColorHint="@color/white" />
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/phone"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="52dp"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:textAlignment="center"-->
+<!--        android:background="@drawable/input_bg"-->
+<!--        android:hint="Phone number 2547"-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:paddingRight="20dp"-->
+<!--        android:padding="5dp"-->
+<!--        android:drawablePadding="15dp"-->
+<!--        android:textColorHint="@color/white" />-->
+
+
+
     <ProgressBar
         android:id="@+id/progressbar"
         android:layout_width="match_parent"

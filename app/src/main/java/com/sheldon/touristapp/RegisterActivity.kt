@@ -40,9 +40,7 @@ class RegisterActivity : AppCompatActivity() {
             json.put("confirm",confirm.text.toString())
 
             val entity =  StringEntity(json.toString())
-
-
-            client.post(this,"https://denzil1.pythonanywhere.com/register",entity,"application/json",
+            client.post(this,"https://Denzil1.pythonanywhere.com/register",entity,"application/json",
 
                 object : JsonHttpResponseHandler(){
 
