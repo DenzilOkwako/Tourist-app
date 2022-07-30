@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TEMBEA KENYA"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/masaimara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MASAI MARA"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/tsavo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TSAVO"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/nairobi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAIROBI NATIONAL"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/diani"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIANI MOMBASA"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/nakuru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAKE NAKURU"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/lamu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAMU ISLAND"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+
+
+
+
+</LinearLayout>

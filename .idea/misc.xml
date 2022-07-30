@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/input_bg.xml" value="0.12" />
+        <entry key="app/src/main/res/layout/activity_diani.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_lamu.xml" value="0.3296875" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_masaimara.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_nairobi.xml" value="0.3296875" />
+        <entry key="app/src/main/res/layout/activity_nakuru.xml" value="0.3296875" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_tsavo.xml" value="0.3296875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
