@@ -4,10 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.EditText
-import android.widget.ProgressBar
-import android.widget.TextView
-import android.widget.Toast
+import android.widget.*
 import com.loopj.android.http.AsyncHttpClient
 import com.loopj.android.http.JsonHttpResponseHandler
 import cz.msebera.android.httpclient.Header
@@ -28,7 +25,7 @@ class RegisterActivity : AppCompatActivity() {
         progressbar.visibility=View.GONE
 
 
-        val login = findViewById<TextView>(R.id.register)
+        val login = findViewById<Button>(R.id.register)
         login.setOnClickListener {
             val client = AsyncHttpClient(true,80,443)
             val json = JSONObject()
@@ -70,13 +67,16 @@ class RegisterActivity : AppCompatActivity() {
 
                 )
 
-            val index = Intent(applicationContext, LoginActivity::class.java)
-            startActivity(index)
+            //val index = Intent(applicationContext, LoginActivity::class.java)
+           // startActivity(index)
 
         }
+        val next = findViewById<TextView>(R.id.login)
+        next.setOnClickListener {
+            val intent = Intent(applicationContext, LoginActivity::class.java)
+            startActivity(intent)
+        }
 
-        //create a table in pythonanywhere database and insert some records
-        //
 
     }
 }

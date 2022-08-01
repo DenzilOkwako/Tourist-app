@@ -1,5 +1,6 @@
 package com.sheldon.touristapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.webkit.WebView
@@ -12,6 +13,13 @@ class Nakuru : AppCompatActivity() {
 
         val nakuru = findViewById<WebView>(R.id.nakuru)
         nakuru.loadUrl("file:///android_asset/nakuru.html")
+
+        val button =findViewById<Button>(R.id.book)
+
+        button.setOnClickListener {
+            val intent = Intent(applicationContext, RegisterActivity::class.java)
+            startActivity(intent)
+        }
 
 
     }

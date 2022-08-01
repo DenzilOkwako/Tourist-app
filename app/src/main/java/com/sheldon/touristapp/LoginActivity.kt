@@ -63,7 +63,7 @@ class LoginActivity : AppCompatActivity() {
                         throwable: Throwable?,
                         errorResponse: JSONObject?
                     ) {
-                        Toast.makeText(applicationContext,"Not Paid Successfuly" , Toast.LENGTH_LONG).show()
+                        Toast.makeText(applicationContext,"login Failed" , Toast.LENGTH_LONG).show()
                         progressbar.visibility = View.GONE
                     }
 
@@ -73,6 +73,11 @@ class LoginActivity : AppCompatActivity() {
 
 
         }//end listener
+        val next = findViewById<Button>(R.id.pay)
+        next.setOnClickListener {
+            val intent = Intent(applicationContext, BookActivity::class.java)
+            startActivity(intent)
+        }
 
 
     }
